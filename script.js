@@ -19,7 +19,7 @@ function IsLeapYear() {
     if (nameValue !== '') { //if name is not empty
         var value = year.value;
         //checks for anything other than number
-        var regex = /[^0-9/]+/
+        var regex = /[^0-9]+/
 
         if (value.length > 3 && value.length < 5 && regex.test(value) !== true) {
             if (value % 4 === 0 && value % 100 !== 0 || value % 400 === 0) {
