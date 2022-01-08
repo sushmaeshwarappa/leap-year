@@ -31,8 +31,9 @@ main div label{
 
 main div input{
     border: solid;
-    border-bottom-right-radius: 1rem;
+    border-bottom-right-radius: 0.5rem;
     font-size: large;
+    padding: 0.3rem;
 }
 
 #name{
