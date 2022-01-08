@@ -3,13 +3,8 @@
     --background-color: #B39DDB;
 }
 
-*{
-    box-sizing: border-box;
-}
-
 body{
-    margin: auto;
-    padding: auto;
+    margin: 0px;
     text-align: center;
     font-family: 'Fira Sans Condensed', 
     sans-serif;
@@ -38,8 +33,6 @@ main div input{
     border: solid;
     border-bottom-right-radius: 1rem;
     font-size: large;
-    width: 50vh;
-    height: 5vh;
 }
 
 #name{
